@@ -19,10 +19,12 @@ function beaker(speak){
 beaker(`Meep`);
 
 //#3
-//function muppetShow(a, b){
-//    if (a ===`Muppet` && b ===`Show`){
-  //      
-   // }
+function muppetShow(a, b){
+   if (a ===`Muppet` && b ===`Show`){
+       console.log(`It's time to play the music. It's time to light the lights.`);
+   }
+}
+muppetShow(`Muppet`, `Show`);
 
 function kermit(){
     console.log(`Kermit the Frog`);
